@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Fasthand&family=Kanit:wght@100&family=Merriweather:wght@300&family=Roboto+Condensed:wght@300&family=Rubik+Distressed&family=Rubik:wght@300&family=Work+Sans:ital,wght@1,100&display=swap');
+
+body {
+    text-align: center;
+    margin: 0;
+    background-color: antiquewhite;
+    background-image: url(th.webp);
+   background-size: cover;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    background-color: rgb(245, 96, 203);
+    height: 30px;
+
+}
+
+.links {
+    display: inline;
+    font-size: 15px;
+    padding: 30px;
+
+
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+
+
+}
+
+/* pseduo class */
+a:hover {
+    font-size: 17px;
+    /* text-shadow: 2px 10px black; */
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.profile {
+    margin-top: 50px;
+    width: 369px;
+}
+
+#name {
+    font-family: 'Fasthand', cursive;
+
+}
+#welcome{
+    background: linear-gradient(to bottom right, aqua, wheat);
+}
+.line{
+    height: 4px;
+    background-color: black;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: black;
+}
+.contact_1 h3{
+    display: inline;
+}
